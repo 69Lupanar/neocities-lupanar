@@ -17,10 +17,15 @@ fetch("./parentPage.html")
 
     const parser = new DOMParser();
     const doc=  parser.parseFromString(data, "text/html");
-    const script = doc.querySelector("script").textContent;
+    const query = doc.querySelector("script");
 
-    if(script !== null)
+    if(query !== null)
     {
-        eval(script);
+        const script = query.textContent;
+
+        if(script !== null)
+        {
+            eval(script);
+        }
     }
 });
