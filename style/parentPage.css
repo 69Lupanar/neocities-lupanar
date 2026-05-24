@@ -1,43 +1,31 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-
-.parentPage {
-  font-family: "Lato", sans-serif;
-  display: flex;
-  align-items: flex-start;
+body{
+  background-image: url('../images/bgs/bg4.jpg');
 }
 
 .sidenav {
-  width: 150px;
+  width: 15rem;
   position: fixed;
   z-index: 1;
-  /* top: 20px;
-  left: 10px; */
-  background: #eee;
   overflow-x: hidden;
-  padding: 8px 0;
+  padding: 8px;
+  
+  font-size: 18px;
 }
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
+  color: #db265c;
   display: block;
 }
 
 .sidenav a:hover {
-  color: #064579;
+  color: #a71c46;
 }
 
-.main {
-  /*margin-left: 160px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
+.main-container {
+  max-width: 900px;
+  /*margin-left: 17rem; /* Same width as the sidebar + left position in px */
+  margin: 0 auto;
   padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
