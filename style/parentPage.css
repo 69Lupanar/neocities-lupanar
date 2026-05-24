@@ -1,5 +1,7 @@
 body{
   background-image: url('../images/bgs/bg4.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
 }
 
 .sidenav {
@@ -14,13 +16,6 @@ body{
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  color: #db265c;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #a71c46;
 }
 
 .main-container {
@@ -28,4 +23,11 @@ body{
   /*margin-left: 17rem; /* Same width as the sidebar + left position in px */
   margin: 0 auto;
   padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.main {
+  flex: 1;
 }

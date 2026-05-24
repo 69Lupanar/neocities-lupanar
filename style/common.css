@@ -5,11 +5,12 @@ h1
   color: rgb(255, 170, 0);
   font-size: 48px;
   font-weight: bold;
-  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 h2{
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 h3{
@@ -25,6 +26,16 @@ hr{
 
 p{
   font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #db265c;
+  display: block;
+}
+
+a:hover {
+  color: #a71c46;
 }
 
 /*Polices*/
