@@ -1,4 +1,4 @@
-const parent = document.querySelector(".parentPage");
+const parent = document.querySelector(".parent-page");
 const childInnerHTML = parent.innerHTML;    // Retient le contenu de la page actuelle pour le réinsérer après
 fetch("./parentPage.html")
 .then(result => result.text())

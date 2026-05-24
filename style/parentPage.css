@@ -23,11 +23,4 @@ body{
   /*margin-left: 17rem; /* Same width as the sidebar + left position in px */
   margin: 0 auto;
   padding: 0px 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.main {
-  flex: 1;
 }
