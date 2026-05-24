@@ -21,10 +21,15 @@ h3{
 }
 
 hr{
-  color: rgb(255, 170, 0);
+  border: 1px solid  rgb(255, 170, 0);
+  opacity: 1;
 }
 
 p{
+  font-size: 18px;
+}
+
+li{
   font-size: 18px;
 }
 
