@@ -103,11 +103,11 @@ a:hover {
   width: 100%;
 }
 
-/*Placements*/
+/*Images*/
 
-.mx-10px{
-  margin-left: 10px;
-  margin-right: 10px;
+.icon-32{
+  width: 32px;
+  height: 32px;
 }
 
 /*Media*/
