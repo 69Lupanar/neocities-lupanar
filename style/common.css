@@ -59,6 +59,16 @@ a:hover {
   color: rgb(220, 220, 220);
 }
 
+.date-text{
+    font-style: italic;
+    color: rgba(164, 164, 164, 0.5);
+}
+
+.list-text{
+    font-style: italic;
+    color: rgb(187, 0, 255);
+}
+
 .small-text{
   font-size: 9px;
 }
