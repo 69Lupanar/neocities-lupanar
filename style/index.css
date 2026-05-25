@@ -1,3 +1,10 @@
 .center-children{
     text-align: center;
 }
+
+/*Remplace le body du baseLayout.css
+  pour pouvoir placer le footer à la fin*/
+body
+{
+  grid-template-rows:1fr auto;
+}
