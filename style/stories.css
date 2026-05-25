@@ -1,4 +1,5 @@
 img{
+    max-width: 15rem;
     max-height: 30rem;
-    object-fit:fill;
+    object-fit: contain;
 }

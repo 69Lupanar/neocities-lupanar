@@ -1,0 +1,18 @@
+.landscape{
+    max-width: 15rem;
+    object-fit: contain;
+}
+
+.portrait{
+    max-width: 15rem;
+    max-height: 30rem;
+    object-fit: contain;
+}
+
+.column a {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+
