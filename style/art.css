@@ -16,3 +16,11 @@
   text-align: center;
 }
 
+
+.column div {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+
