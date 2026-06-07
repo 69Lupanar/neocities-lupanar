@@ -1,0 +1,9 @@
+- Remplacer la navbar par une navbar qui s'adapte à l'écran
+- Remplacer le lien unique des jeux et histoires par des liens vers différentes plateformes pour le confort de l'utilisateur
+- Rendre le site navigable sur mobile
+-Changer la police
+
+-Bugs:
+
+- Transparence du footer ne marche pas sur mobile
+- Les full-size-img sont trop grands sur mobile

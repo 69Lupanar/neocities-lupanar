@@ -164,6 +164,13 @@ footer{
   margin-right: auto;
 }
 
+.yt-video{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
 /*Media*/
 
 /* Responsive layout - makes a two column-layout instead of four columns */
