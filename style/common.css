@@ -152,16 +152,10 @@ footer{
 
 .full-size-img
 {
-    width: 100%;
-    object-fit: cover;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
-.img-center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .yt-video{

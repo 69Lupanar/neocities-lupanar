@@ -3,6 +3,16 @@ body{
   background-repeat: no-repeat;
   background-attachment:fixed;
 
+  /*Pour que l'arrière-plan se répète sur mobile.
+    Normalement il est censé resté fixe, 
+    mais il devient blanc si on défile trop loin
+    donc on le fait répéter à la place.
+    */
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
   display:grid;
   grid-template-rows:auto 1fr auto;
   grid-template-columns:100%;
